@@ -1,0 +1,2 @@
+gcc -x c testRedis.c -o redis.o -lhiredis 
+./redis.o

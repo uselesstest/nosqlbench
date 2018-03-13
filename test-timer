@@ -1,0 +1,4 @@
+gcc -x c testTimer.c -o timer.o 
+./timer.o
+
+

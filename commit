@@ -1,0 +1,23 @@
+rm -rf .git
+git init
+git add redis.c
+git add tarantool.c
+git add timer.h
+git add testRedis.c
+git add testTimer.c
+git add testTarantool.c
+git add test-redis
+git add test-tarantool
+git add test-timer
+
+git add benchmark.c
+git add run-bench
+
+git add commit
+
+git config --global user.name "Autonomous Git Pusher"
+git config --global user.email "robot@me.me"
+
+git commit -m "Automatic commit" --author="Automatic Commit <robot@example.com>"
+git remote add origin https://github.com/uselesstest/nosqlbench.git
+git push -u origin master
